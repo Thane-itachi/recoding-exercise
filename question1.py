@@ -6,12 +6,12 @@ def find_largest(numbers):
 
     largest = numbers[0]
 
-    for num in numbers[1:]:
+    for num in numbers:
         if num > largest:
             largest = num
 
     return largest            
 # numbers = [3, 41, 56, 21, 76, 9]
-# numbers = [-10, -5, -2, -18]
-numbers = []
+numbers = [-10, -100, -45, -150]
+# numbers = []
 print(find_largest(numbers))
